@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'qqpage',
+    title: 'Q&Q | 宜蘭包棟民宿',
     htmlAttrs: {
       lang: 'en'
     },

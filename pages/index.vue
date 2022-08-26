@@ -35,6 +35,7 @@ export default {
     background-size: cover;
     background-position: center;
     background-image: url('@/assets/image/olaf.jpeg');
+    position: relative;
     .text-box {
       position: absolute;
       top: 50%;
