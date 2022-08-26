@@ -31,7 +31,9 @@
       <Nuxt />
     </el-main>
     <el-footer class="footer">
-      footer
+      <div class="footer-div">
+        <span class="footer-span">&copy; Darcy</span>
+      </div>
     </el-footer>
   </el-container>
 </template>
@@ -186,4 +188,17 @@
     }
   }
 
+.el-footer {
+  display: flex;
+  height: 4vh;
+  width: 100%;
+  align-items: center;
+}
+  .footer {
+    // background-image: linear-gradient(90deg,#6bd4ee,#1aa5ca);
+    // border-radius: 0 72px 0 0;
+    // background: #555559 none repeat scroll 0 0;
+    color: #999999;
+    background-color: #a6a6a63b;
+  }
 </style>
